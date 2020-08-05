@@ -1,0 +1,46 @@
+root:
+  home:
+  - name: fashion-3
+    description: Another fashion story 3
+    photos:
+    - 4566b2e8
+    - 8c9525f4
+    - 2332bb75
+  - name: fashion-8
+    description: Another fashion story 8
+    photos:
+    - a2f5793b
+    - a03bca0f
+    - ded77202
+  - name: fashion-1
+    description: Another fashion story 1
+    photos:
+    - 4e607fd9
+  - name: fashion-2
+    description: Another fashion story 2
+    photos:
+    - fc27623c
+  - name: fashion-7
+    description: Another fashion story 7
+    photos:
+    - f6486621
+  - name: fashion-12
+    description: Another fashion story 12
+    photos:
+    - 999d8ce7
+  - name: celebrity-1
+    description: Another celebrity story 1
+    photos:
+    - 11953089
+    - e16ca77f
+    - 7e899d3b
+    - 6bdfcb79
+    - aa5e68f0
+  - name: celebrity-2
+    description: Another celebrity story 2
+    photos:
+    - bad414c8
+  - name: fashion-11
+    description: Another fashion story 11
+    photos:
+    - 2cc922ad
