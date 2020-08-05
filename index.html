@@ -1,1 +1,144 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="keywords" content="anjie,artist,photographer,anjieart"><meta name="description" content="anjieart.net exhibits the photo world created by A.J"><title>A.J ART</title><link href="/content/css/layout.css" rel="stylesheet"/><link rel="shortcut icon" href="/favicon.ico"/></head><body><div id="layout"><div id="index"><object type="application/x-shockwave-flash" data="/content/index.swf" width="725" height="650"><param name="movie" value="/content/index.swf" /><param name="loop" value="true" /><param name="menu" value="false" /><param name="quality" value="best" /><param name="wmode" value="transparent" /><div id="content"><ul id="navigator"><li><a href="/category/advertising/">ADVERTISING</a></li><li><a href="/category/fashion/">FASHION</a></li><li><a href="/category/celebrity/">CELEBRITY</a></li><li><a href="/category/beauty/">BEAUTY</a></li><li><a href="/about/">ABOUT</a></li></ul></div></object></div><div id="footer"><p> A.J ART Powered by ASP.NET MVC3 Designed by Ray Yu </p><p> &#x00a9; 2011-2020 anjieart.com | All the content are the property of their respective owners as indicated </p></div></div><script src="/content/scripts/my.js"></script></body></html> 
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, user-scalable=no" />
+      <title>Anjie ART Gallery - Home</title>
+      <link rel="stylesheet" href="public/lightgallery/css/lightgallery.css" />
+      <link rel="stylesheet" href="public/videojs/video-js.min.css" />
+      <link rel="stylesheet" href="public/lightgallery/css/lg-exif.min.css" />
+      <link rel="stylesheet" href="public/core.css" />
+      <link rel="stylesheet" href="public/theme.css" />
+  </head>
+
+  <body>
+
+    
+    <div id="container">
+    
+      <!--
+        Gallery title
+      -->
+      <header>
+        <h1><a href="index.html">Anjie ART Gallery</a></h1>
+      </header>
+    
+      <!--
+        Breadcrumbs of parent albums
+      -->
+      <nav class="breadcrumbs">
+    <a class="breadcrumb-item" href="index.html">Home</a>
+      </nav>
+    
+      <!--
+        Nested albums, if any
+      -->
+      <div id="albums">
+    <a href="anjie.html" style="background-image: url('media/large/anjie/dylan.JPG')">
+            <div class="info">
+              <h3>anjie</h3>
+              <div class="summary">1 photo</div>
+              <div class="date">07 Apr 2017 - 07 Apr 2017</div>
+            </div>
+          </a><a href="advertisement.html" style="background-image: url('media/large/advertisement/IMG_9400.JPG')">
+            <div class="info">
+              <h3>advertisement</h3>
+              <div class="summary">5 photos</div>
+              <div class="date">09 Aug 2017 - 27 Dec 2019</div>
+            </div>
+          </a><a href="lambosega.html" style="background-image: url('media/large/lambosega/IMG_8920拷貝.jpg')">
+            <div class="info">
+              <h3>lambosega</h3>
+              <div class="summary">4 photos</div>
+              <div class="date">25 Oct 2017 - 25 Oct 2017</div>
+            </div>
+          </a><a href="JDV.html" style="background-image: url('media/large/JDV/IMG_5005.JPG')">
+            <div class="info">
+              <h3>JDV</h3>
+              <div class="summary">3 photos</div>
+              <div class="date">27 Jul 2018 - 13 Mar 2019</div>
+            </div>
+          </a><a href="fashion.html" style="background-image: url('media/large/fashion/IMG_8093.JPG')">
+            <div class="info">
+              <h3>fashion</h3>
+              <div class="summary">38 photos</div>
+              <div class="date">11 Nov 2018 - 27 Jun 2020</div>
+            </div>
+          </a><a href="hanxue.html" style="background-image: url('media/large/hanxue/L1100175AJ.JPG')">
+            <div class="info">
+              <h3>hanxue</h3>
+              <div class="summary">2 photos</div>
+              <div class="date">23 Dec 2018 - 23 Dec 2018</div>
+            </div>
+          </a><a href="punk.html" style="background-image: url('media/large/punk/P1039504.JPG')">
+            <div class="info">
+              <h3>punk</h3>
+              <div class="summary">6 photos</div>
+              <div class="date">18 Apr 2019 - 20 Sep 2019</div>
+            </div>
+          </a><a href="chengen.html" style="background-image: url('media/large/chengen/P1451487_缤若诗余承恩副KV1.jpg')">
+            <div class="info">
+              <h3>chengen</h3>
+              <div class="summary">5 photos</div>
+              <div class="date">16 Oct 2019 - 16 Oct 2019</div>
+            </div>
+          </a>  </div>
+    
+      <!--
+        All photos and videos
+      -->
+      <ul id="media" class="clearfix">
+      </ul>
+    
+      <!--
+        Optional footer
+      -->
+      <footer>
+        <p>© Anjie ART 2020</p>
+      </footer>
+    
+    </div>
+    <!-- Video loader -->
+    <div id="videos">
+    </div>
+
+    <!-- jQuery -->
+    <script src="public/jquery.min.js"></script>
+    <!-- VideoJS -->
+    <script src="public/videojs/video.min.js"></script>
+    <!-- LightGallery -->
+    <script src="public/lightgallery/js/lightgallery.js"></script>
+    <script src="public/lightgallery/js/lg-autoplay.js"></script>
+    <script src="public/lightgallery/js/lg-pager.js"></script>
+    <script src="public/lightgallery/js/lg-thumbnail.js"></script>
+    <script src="public/lightgallery/js/lg-video.js"></script>
+    <script src="public/lightgallery/js/lg-exif.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $("#media").lightGallery({
+          thumbWidth: 80,
+          controls: true,
+          loop : false,
+          download: true,
+          counter: true,
+          videojs: true
+        });
+      });
+    </script>
+
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-11765858-3', 'auto');
+      ga('send', 'pageview');
+    </script>
+    
+
+  </body>
+
+</html>
