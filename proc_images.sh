@@ -1,10 +1,7 @@
 #!/usr/bin/env bash
 set -ex
 
-input=/home/miles/Downloads/xintu
-output=/home/miles/repo/mc/anjie_2020/output/photos
-manifest=/home/miles/repo/mc/anjie_2020/manifest2.yaml
-
+output=$output/photos
 
 mkdir -p $output
 echo 'root:' > $manifest
@@ -15,7 +12,7 @@ for cat in "${cats[@]}"
 do
   echo "  $cat:" >> $manifest
   i=0
-  for f in $input/$cat/*;
+  for f in $input_photos/$cat/*;
   do
     (( i=i+1 ))    
     echo "  - name: $cat-$i" >> $manifest

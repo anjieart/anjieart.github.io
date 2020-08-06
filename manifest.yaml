@@ -51,14 +51,11 @@ root:
   - name: fashion-8
     description: Another fashion story 8
     photos:
-    - a2f5793b
     - a03bca0f
     - ded77202
   - name: fashion-9
     description: Another fashion story 9
     photos:
-    - 499464ac
-    - 6fe66ebc
     - bc40a36a
     - 4757f063
   - name: fashion-10
@@ -74,8 +71,8 @@ root:
     - c773c472
     - 22d55fe1
     - 04effc8d
-  - name: fashion-12
-    description: Another fashion story 12
+  - name: LAMPO
+    description: 蓝豹
     photos:
     - 999d8ce7
     - 7726a8de
@@ -103,16 +100,16 @@ root:
     - dacf2096
     - 1897231f
   celebrity:
-  - name: celebrity-1
-    description: Another celebrity story 1
+  - name: chengen
+    description: 余承恩
     photos:
     - 11953089
     - e16ca77f
     - 7e899d3b
     - 6bdfcb79
     - aa5e68f0
-  - name: celebrity-2
-    description: Another celebrity story 2
+  - name: hanxue
+    description: 韓雪
     photos:
     - bad414c8
     - d291124c
