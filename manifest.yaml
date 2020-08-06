@@ -1,90 +1,93 @@
 root:
   fashion:
-  - name: fashion-1
-    description: Another fashion story 1
+  - name: 73hours-1
+    description: 73Hours
     photos:
+    - 628c11f4
     - 4e607fd9
     - c417a1d5
-    - 628c11f4
-  - name: fashion-2
-    description: Another fashion story 2
+  - name: 73hours-2
+    description: 73Hours
     photos:
+    - 1bbc4d69
     - fc27623c
     - 8676c7ae
     - 4e6320cb
     - a0315a51
     - 3bf02cde
     - 077976b9
-    - 1bbc4d69
-  - name: fashion-3
-    description: Another fashion story 3
+  - name: 73hours-3
+    description: 73Hours
     photos:
-    - 4566b2e8
     - 8c9525f4
+    - 4566b2e8
     - 2332bb75
-  - name: fashion-4
-    description: Another fashion story 4
+  - name: 73hours-4
+    description: 73Hours
     photos:
     - 5e843cc5
     - e162aedf
     - 8b60b211
     - c6f1afe2
-  - name: fashion-5
-    description: Another fashion story 5
+  - name: 73hours-5
+    description: 73Hours
     photos:
+    - fb889123
     - 7dbedf30
     - 5947cdbe
-    - fb889123
-  - name: fashion-6
-    description: Another fashion story 6
+  - name: 73hours-6
+    description: 73Hours
     photos:
     - ff4061a2
     - 12ee0ffc
     - e674ba96
     - af0f114d
-  - name: fashion-7
-    description: Another fashion story 7
+  - name: 73hours-7
+    description: 73Hours
     photos:
+    - ca13cd88
     - f6486621
     - 8e24302b
-    - ca13cd88
   - name: fashion-8
-    description: Another fashion story 8
+    description: A great fashion story
     photos:
     - a03bca0f
     - ded77202
   - name: fashion-9
-    description: Another fashion story 9
+    description: A great fashion story
     photos:
     - bc40a36a
     - 4757f063
-  - name: fashion-10
-    description: Another fashion story 10
+  - name: 73hours-10
+    description: 73Hours
     photos:
+    - 3e0d77dd
     - dce31143
     - 6f5f8536
-    - 3e0d77dd
-  - name: fashion-11
-    description: Another fashion story 11
+  - name: jdv
+    description: JDV
     photos:
     - 2cc922ad
     - c773c472
     - 22d55fe1
-    - 04effc8d
-  - name: LAMPO
-    description: 蓝豹
+  - name: lampo
+    description: LAMPO
     photos:
-    - 999d8ce7
     - 7726a8de
+    - 999d8ce7
     - 12baa520
     - 91c8cae4
-  - name: fashion-13
-    description: Another fashion story 13
+  - name: subcrew
+    description: SUBCREW
     photos:
+    - 04effc8d
+  - name: mishkanyc
+    description: MISHKANYC
+    photos:
+    - fff712ab
     - f3fdf6b5
     - 7327d761
     - 3c479acd
-    - fff712ab
     - 3db39737
     - bec29595
   advertising:
@@ -111,5 +114,5 @@ root:
   - name: hanxue
     description: 韓雪
     photos:
-    - bad414c8
     - d291124c
+    - bad414c8

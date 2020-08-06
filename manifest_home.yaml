@@ -1,31 +1,29 @@
 root:
   home:
-  - name: fashion-3
-    description: Another fashion story 3
+  - name: 73hours-3
+    description: 73Hours
     photos:
-    - 4566b2e8
     - 8c9525f4
-    - 2332bb75
-  - name: fashion-8
-    description: Another fashion story 8
+  - name: 73hours-10
+    description: 73Hours
     photos:
-    - a03bca0f
-  - name: fashion-1
-    description: Another fashion story 1
+    - 3e0d77dd
+  - name: 73hours-1
+    description: 73Hours
     photos:
-    - 4e607fd9
-  - name: fashion-2
-    description: Another fashion story 2
-    photos:
-    - fc27623c
-  - name: fashion-7
-    description: Another fashion story 7
-    photos:
-    - f6486621
+    - 628c11f4
   - name: LAMPO
-    description: 蓝豹
+    description: LAMPO
     photos:
-    - 999d8ce7
+    - 7726a8de
+  - name: 73hours-7
+    description: 73Hours
+    photos:
+    - ca13cd88
+  - name: 73hours-2
+    description: 73Hours
+    photos:
+    - 1bbc4d69
   - name: chengen
     description: 余承恩
     photos:
@@ -33,8 +31,8 @@ root:
   - name: hanxue
     description: 韓雪
     photos:
-    - bad414c8
-  - name: fashion-11
-    description: Another fashion story 11
+    - d291124c
+  - name: jdv
+    description: JDV
     photos:
     - 2cc922ad
