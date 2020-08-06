@@ -24,20 +24,16 @@ root:
     description: Another fashion story 7
     photos:
     - f6486621
-  - name: fashion-12
-    description: Another fashion story 12
+  - name: LAMPO
+    description: 蓝豹
     photos:
     - 999d8ce7
-  - name: celebrity-1
-    description: Another celebrity story 1
+  - name: chengen
+    description: 余承恩
     photos:
     - 11953089
-    - e16ca77f
-    - 7e899d3b
-    - 6bdfcb79
-    - aa5e68f0
-  - name: celebrity-2
-    description: Another celebrity story 2
+  - name: hanxue
+    description: 韓雪
     photos:
     - bad414c8
   - name: fashion-11
