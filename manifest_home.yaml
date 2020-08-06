@@ -9,9 +9,7 @@ root:
   - name: fashion-8
     description: Another fashion story 8
     photos:
-    - a2f5793b
     - a03bca0f
-    - ded77202
   - name: fashion-1
     description: Another fashion story 1
     photos:
