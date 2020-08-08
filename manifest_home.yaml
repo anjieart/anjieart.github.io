@@ -9,15 +9,15 @@ root:
     photos:
     - 22d55fe1
   - name: 2
-    description: A fashion story
+    description: 73 Hours
     photos:
-    - 8c9525f4
+    - be3e9238
   - name: mishkanyc
     description: MISHKANYC
     photos:
     - 7a45e697
   - name: 4
-    description: A fashion story
+    description: 73 Hours
     photos:
     - 29931c4f
   - name: lampo
@@ -29,10 +29,10 @@ root:
     photos:
     - 26d6e20d
   - name: 9
-    description: A fashion story
+    description: 73 Hours
     photos:
     - a9b62993
   - name: 11
-    description: A fashion story
+    description: 73 Hours
     photos:
     - 328a6897

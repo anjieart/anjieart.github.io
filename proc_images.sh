@@ -25,7 +25,7 @@ do
       echo "    - $n" >> $manifest
       [[ ! -f $output/${n}_x100.jpg ]] && convert -thumbnail x100 $p  -quality 90 $output/${n}_x100.jpg
       [[ ! -f $output/${n}_x540.jpg ]] && convert -thumbnail x540 $p  -quality 90 $output/${n}_x540.jpg
-      [[ ! -f $output/${n}_x800.jpg ]] && convert -resize x800 $p  -quality 95 $output/${n}_x800.jpg
+      [[ ! -f $output/${n}_x800.jpg ]] && convert -resize x800 $p  -quality 90 $output/${n}_x800.jpg
       [[ ! -f $output/${n}_x1200.jpg ]] && convert -resize x1200 $p  -quality 95 $output/${n}_x1200.jpg
     done
   done
