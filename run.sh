@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -ex
 
-export input_photos=/home/miles/Downloads/anjie_2020
+export input_photos=/home/miles/Downloads/zl
 export input=/home/miles/repo/mc/anjieart.github.io/public
 export output=/home/miles/repo/mc/anjieart.github.io_rel
 export manifest=/home/miles/repo/mc/anjieart.github.io/manifest.yaml

@@ -21,13 +21,10 @@
                             <a href="/">Home</a>
                         </div>
                         <div class="gallery-title">
+                            <a href="/73hours/"{{ if eq (datasource "cat").name "73hours" }} class="active"{{end}}>73hours</a>
+                        </div>
+                        <div class="gallery-title">
                             <a href="/fashion/"{{ if eq (datasource "cat").name "fashion" }} class="active"{{end}}>Fashion</a>
-                        </div>
-                        <div class="gallery-title">
-                            <a href="/celebrity/"{{ if eq (datasource "cat").name "celebrity" }} class="active"{{end}}>Celebrity</a>
-                        </div>
-                        <div class="gallery-title">
-                            <a href="/advertising/"{{ if eq (datasource "cat").name "advertising" }} class="active"{{end}}>Advertising</a>
                         </div>
                         <div class="page-title">
                             <a href="/contact/"{{ if eq (datasource "cat").name "contact" }} class="active"{{end}}>Contact</a>
@@ -62,13 +59,10 @@
                                     <a href="/">Home</a>
                                 </div>
                                 <div class="gallery-title">
+                                    <a href="/73hours/"{{ if eq (datasource "cat").name "73hours" }} class="active"{{end}}>73hours</a>
+                                </div>
+                                <div class="gallery-title">
                                     <a href="/fashion/"{{ if eq (datasource "cat").name "fashion" }} class="active"{{end}}>Fashion</a>
-                                </div>
-                                <div class="gallery-title">
-                                    <a href="/celebrity/"{{ if eq (datasource "cat").name "celebrity" }} class="active"{{end}}>Celebrity</a>
-                                </div>
-                                <div class="gallery-title">
-                                    <a href="/advertising/"{{ if eq (datasource "cat").name "advertising" }} class="active"{{end}}>Advertising</a>
                                 </div>
                                 <div class="page-title">
                                     <a href="/contact/"{{ if eq (datasource "cat").name "contact" }} class="active"{{end}}>Contact</a>
@@ -84,7 +78,7 @@
                                     <div class="cover-image-wrap">
                                         <div class="cover-image">
                                             <div class="cover cover-normal">
-                                                <img class="cover__img js-lazy" src="/photos/{{index .photos 0}}_x100.jpg" data-src="/photos/{{index .photos 0}}_x400.jpg">
+                                                <img class="cover__img js-lazy" src="/photos/{{index .photos 0}}_x100.jpg" data-src="/photos/{{index .photos 0}}_x540.jpg">
                                             </div>
                                         </div>
                                     </div>

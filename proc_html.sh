@@ -5,7 +5,7 @@ set -ex
 mkdir -p $output
 
 
-cats=( fashion advertising celebrity )
+cats=( fashion 73hours )
 for cat in "${cats[@]}"
 do
   # category
@@ -54,5 +54,7 @@ html-minifier \
   --remove-tag-whitespace --use-short-doctype \
   --minify-css true --minify-js true \
   -o $output/contact/index.html $input/contact/index.html
+
+find $output -type f -name index_raw.html | xargs rm -f
 
 echo 'bye'

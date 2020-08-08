@@ -1,118 +1,111 @@
 root:
   fashion:
-  - name: 73hours-1
-    description: 73Hours
+  - name: hanxue
+    description: HAN XUE
     photos:
-    - 628c11f4
-    - 4e607fd9
-    - c417a1d5
-  - name: 73hours-2
-    description: 73Hours
-    photos:
-    - 1bbc4d69
-    - fc27623c
-    - 8676c7ae
-    - 4e6320cb
-    - a0315a51
-    - 3bf02cde
-    - 077976b9
-  - name: 73hours-3
-    description: 73Hours
-    photos:
-    - 8c9525f4
-    - 4566b2e8
-    - 2332bb75
-  - name: 73hours-4
-    description: 73Hours
-    photos:
-    - 5e843cc5
-    - e162aedf
-    - 8b60b211
-    - c6f1afe2
-  - name: 73hours-5
-    description: 73Hours
-    photos:
-    - fb889123
-    - 7dbedf30
-    - 5947cdbe
-  - name: 73hours-6
-    description: 73Hours
-    photos:
-    - ff4061a2
-    - 12ee0ffc
-    - e674ba96
-    - af0f114d
-  - name: 73hours-7
-    description: 73Hours
-    photos:
-    - ca13cd88
-    - f6486621
-    - 8e24302b
-  - name: fashion-8
-    description: A great fashion story
-    photos:
-    - a03bca0f
-    - ded77202
-  - name: fashion-9
-    description: A great fashion story
-    photos:
-    - bc40a36a
-    - 4757f063
-  - name: 73hours-10
-    description: 73Hours
-    photos:
-    - 3e0d77dd
-    - dce31143
-    - 6f5f8536
+    - 3d99ca9d
+    - bad414c8
+    - d291124c
   - name: jdv
-    description: JDV
+    description: JDV Man
     photos:
+    - 22d55fe1
     - 2cc922ad
     - c773c472
-    - 22d55fe1
   - name: lampo
-    description: LAMPO
+    description: LAMPO Man
     photos:
-    - 7726a8de
-    - 999d8ce7
     - 12baa520
+    - 999d8ce7
+    - 7726a8de
+    - e1115bf6
     - 91c8cae4
-  - name: subcrew
-    description: SUBCREW
-    photos:
-    - 04effc8d
   - name: mishkanyc
     description: MISHKANYC
     photos:
-    - fff712ab
+    - 7a45e697
     - f3fdf6b5
     - 7327d761
     - 3c479acd
-    - 3db39737
+    - fff712ab
     - bec29595
-  advertising:
-  - name: advertising-1
-    description: Another advertising story 1
-    photos:
-    - d3a5075f
-    - be856b18
-    - 6fca445f
-  - name: advertising-2
-    description: Another advertising story 2
+  - name: omo
+    description: OMO AO MIAO
     photos:
     - dacf2096
     - 1897231f
-  celebrity:
-  - name: chengen
-    description: 余承恩
+  - name: yuchengen
+    description: YU CHENG EN
     photos:
+    - 26d6e20d
     - 11953089
+    - 7905bf06
     - e16ca77f
     - 7e899d3b
     - 6bdfcb79
     - aa5e68f0
-  - name: hanxue
-    description: 韓雪
+  73hours:
+  - name: 10
+    description: A fashion story
     photos:
-    - d291124c
-    - bad414c8
+    - 077976b9
+    - a16c1d98
+    - 792be252
+    - d24c865b
+  - name: 2
+    description: A fashion story
+    photos:
+    - 8c9525f4
+    - 4566b2e8
+    - be3e9238
+    - 2332bb75
+    - 3e0d77dd
+  - name: 3
+    description: A fashion story
+    photos:
+    - 55679602
+    - 4e607fd9
+    - c417a1d5
+    - 628c11f4
+  - name: 4
+    description: A fashion story
+    photos:
+    - 29931c4f
+    - f6486621
+    - 8e24302b
+    - ca13cd88
+  - name: 5
+    description: A fashion story
+    photos:
+    - 6599d7ab
+    - a0315a51
+    - 3bf02cde
+  - name: 6
+    description: A fashion story
+    photos:
+    - a73bf149
+    - 7dbedf30
+    - 5947cdbe
+    - fb889123
+  - name: 7
+    description: A fashion story
+    photos:
+    - e97648c8
+    - fc27623c
+  - name: 8
+    description: A fashion story
+    photos:
+    - 2c21fb19
+    - ff4061a2
+    - 12ee0ffc
+    - e674ba96
+  - name: 9
+    description: A fashion story
+    photos:
+    - a9b62993
+    - a2f5793b
+  - name: 11
+    description: A fashion story
+    photos:
+    - 328a6897
+    - 1bbc4d69
