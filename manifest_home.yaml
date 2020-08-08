@@ -2,37 +2,28 @@ root:
   home:
   - name: hanxue
     description: HAN XUE
-    photos:
-    - 3d99ca9d
+    cover: 3d99ca9d
   - name: jdv
     description: JDV Man
-    photos:
-    - 22d55fe1
-  - name: 2
+    cover: 22d55fe1
+  - name: 73hours-2
     description: 73 Hours
-    photos:
-    - be3e9238
+    cover: be3e9238
   - name: mishkanyc
     description: MISHKANYC
-    photos:
-    - 7a45e697
-  - name: 4
+    cover: 7a45e697
+  - name: 73hours-4
     description: 73 Hours
-    photos:
-    - 29931c4f
+    cover: 29931c4f
   - name: lampo
     description: LAMPO Man
-    photos:
-    - 12baa520
+    cover: e1115bf6
   - name: yuchengen
     description: YU CHENG EN
-    photos:
-    - 26d6e20d
-  - name: 9
+    cover: 7905bf06
+  - name: 73hours-9
     description: 73 Hours
-    photos:
-    - a9b62993
-  - name: 11
+    cover: a9b62993
+  - name: 73hours-11
     description: 73 Hours
-    photos:
-    - 328a6897
+    cover: 328a6897

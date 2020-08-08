@@ -7,7 +7,11 @@
     <meta name="keywords" content="Photographer,lifestyle photographer,lifestyle,food photography,norway,norwegian">
     <link rel="stylesheet" href="/assets/main.css" type="text/css">
     <link rel="stylesheet" href="/assets/717829a48b5fad64747b7bf2f577ae731593177533.css" type="text/css">
-    <title>A.J Art - {{ (datasource "story").name }}</title>
+{{ range (index (datasource "config").root (datasource "cat").name) }}
+{{ if eq .name (datasource "story").name }}
+    <title>A.J Art - {{ .description }}</title>
+{{ end }}
+{{ end }}
 </head>
 
 <body class="link-transition disable-download">
@@ -82,7 +86,6 @@
                                 data-identity="id:p5d90581e0cb2555dc6a486cd7e00634b4716e182bfcafd85cd52d"
                                 data-hover-hint="pageHeader"
                                 data-hover-hint-id="p5d90581e0cb2555dc6a486cd7e00634b4716e182bfcafd85cd52d">
-                                <h1 class="title preserve-whitespace e2e-site-logo-text">{{.name}}</h1>
                                 <p class="description">{{.description}}</p>
                             </header>
                             <div class="page-content js-page-content js-editable-target editable" data-context="pages"
