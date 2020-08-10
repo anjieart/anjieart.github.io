@@ -5,7 +5,7 @@ set -ex
 mkdir -p $output
 
 
-cats=( fashion 73hours )
+cats=( celebrity advertising fashion )
 for cat in "${cats[@]}"
 do
   # category

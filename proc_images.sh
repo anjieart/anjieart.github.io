@@ -7,7 +7,7 @@ mkdir -p $output
 echo 'root:' > $manifest
 
 
-cats=( fashion 73hours )
+cats=( celebrity advertising fashion )
 for cat in "${cats[@]}"
 do
   echo "  $cat:" >> $manifest

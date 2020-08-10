@@ -1,11 +1,28 @@
 root:
-  fashion:
+  celebrity:
   - name: hanxue
     description: HAN XUE
     cover: 3d99ca9d
     photos:
     - bad414c8
     - d291124c
+  - name: yuchengen
+    description: YU CHENG EN
+    cover: 26d6e20d
+    photos:
+    - 11953089
+    - e16ca77f
+    - 7e899d3b
+    - 6bdfcb79
+    - aa5e68f0
+  advertising:
+  - name: omo
+    description: OMO AO MIAO
+    cover: dacf2096
+    photos:
+    - dacf2096
+    - 1897231f
+  fashion:
   - name: jdv
     description: JDV Man
     cover: 22d55fe1
@@ -30,22 +47,6 @@ root:
     - 3c479acd
     - fff712ab
     - bec29595
-  - name: omo
-    description: OMO AO MIAO
-    cover: dacf2096
-    photos:
-    - dacf2096
-    - 1897231f
-  - name: yuchengen
-    description: YU CHENG EN
-    cover: 26d6e20d
-    photos:
-    - 11953089
-    - e16ca77f
-    - 7e899d3b
-    - 6bdfcb79
-    - aa5e68f0
-  73hours:
   - name: 73hours-10
     description: 73 Hours
     cover: d24c865b
