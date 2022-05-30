@@ -12,7 +12,7 @@ do
   mkdir -p $output/$cat
   echo "name: $cat" > cat.yaml
   gomplate -d config=$manifest -d cat=./cat.yaml -f $input/category/index.html -o $output/$cat/index_raw.html
-  html-minifier \
+  npx html-minifier \
     --collapse-whitespace --remove-comments --remove-optional-tags \
     --remove-redundant-attributes --remove-script-type-attributes \
     --remove-tag-whitespace --use-short-doctype \
@@ -27,7 +27,7 @@ do
     mkdir -p $output/$story
     echo "name: $story" > story.yaml
     gomplate -d config=$manifest -d cat=./cat.yaml -d story=./story.yaml -f $input/story/index.html -o $output/$story/index_raw.html
-    html-minifier \
+    npx html-minifier \
       --collapse-whitespace --remove-comments --remove-optional-tags \
       --remove-redundant-attributes --remove-script-type-attributes \
       --remove-tag-whitespace --use-short-doctype \
@@ -38,7 +38,7 @@ done
 
 # home
 gomplate -d config=$manifest_home -f $input/index.html -o $output/index_raw.html
-html-minifier \
+npx html-minifier \
   --collapse-whitespace --remove-comments --remove-optional-tags \
   --remove-redundant-attributes --remove-script-type-attributes \
   --remove-tag-whitespace --use-short-doctype \
@@ -48,7 +48,7 @@ html-minifier \
 
 # contact
 mkdir -p $output/contact
-html-minifier \
+npx html-minifier \
   --collapse-whitespace --remove-comments --remove-optional-tags \
   --remove-redundant-attributes --remove-script-type-attributes \
   --remove-tag-whitespace --use-short-doctype \
