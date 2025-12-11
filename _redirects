@@ -1,2 +1,0 @@
-# Redirect www to non-www with 301 (permanent redirect)
-https://www.anjieart.com/* https://anjieart.com/:splat 301
